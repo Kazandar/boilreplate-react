@@ -13,8 +13,8 @@
     "import/imports-first": ["error", "absolute-first"],
     "import/newline-after-import": "error",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "comma-dangle": ["error", "always"],
-    "linebreak-style" : [0]
+    "linebreak-style" : [0],
+    "no-unused-vars": ["error", { "varsIgnorePattern": "^React$" }]
   },
   "globals": {
     "window": true,
