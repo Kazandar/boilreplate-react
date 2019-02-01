@@ -68,6 +68,10 @@ const config = {
     ],
   },
 
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
+
   devServer: {
     hotOnly: true,
   },
